@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 📱 IMC App – React Native
 Una aplicación móvil desarrollada con React Native que permite calcular el Índice de Masa Corporal (IMC) de una persona de forma rápida y sencilla. La app proporciona una clasificación del resultado y recomendaciones básicas de acuerdo con los parámetros establecidos por la OMS.
 
@@ -5,11 +6,25 @@ Una aplicación móvil desarrollada con React Native que permite calcular el Ín
 
 
 ✍️ Ingreso de peso y altura del usuario
+=======
+# Benvinguts a la teua app feta per a Expo 👋
+
+Aquest és un projecte [Expo](https://expo.dev) creat mitjançant l'ordre [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+
+## Comencem
+
+1. Instalem les dependències
+>>>>>>> 72d671d (Modifique el README.md)
 
 
+<<<<<<< HEAD
 ⚖️ Cálculo automático del IMC
+=======
+2. Iniciem l'app
+>>>>>>> 72d671d (Modifique el README.md)
 
 
+<<<<<<< HEAD
 📊 Clasificación del estado corporal (Bajo peso, Normal, Sobrepeso, Obesidad)
 
 
@@ -49,3 +64,5 @@ Este proyecto está bajo la licencia MIT. Puedes usarlo y modificarlo libremente
 Alberto Peñarrubia
 📧 Contacto: alpegom2001@gmail.com
 🔗 GitHub: https://github.com/albertoportfolio
+=======
+
