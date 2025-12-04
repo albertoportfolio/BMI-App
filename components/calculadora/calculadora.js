@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { View } from 'react-native';
-import { TextInput, Button } from 'react-native-paper';
-import Resultat from '../resultat/resultat'
 import { useEffect, useState } from 'react';
+import { View } from 'react-native';
+import { Button, HelperText, TextInput } from 'react-native-paper';
+import Resultat from '../resultat/resultat';
 
 const Calculadora = () => {
   const [metres, setMetres] = useState(0);
@@ -10,6 +10,7 @@ const Calculadora = () => {
   const [imc, setImc] = useState(0);
   const [tipo, setTipo] = useState('');
   const [color, setColor] = useState('');
+  const [disabled, setDisabled] = useState(false)
   const pesValid = /^(\d+)$|^(\d*\.\d+)$/;
 
   useEffect(() => {
@@ -32,7 +33,7 @@ const Calculadora = () => {
     const num = pes / (Math.pow(metres,2))
     setImc(num)
     console.log(imc)
-    if(!pesValid.test(pes) || !pesValid.test(metres) || metres == 0){
+    if(!pesValid.test(pes) || !pesValid.test(metres) || metres === 0){
       setImc(0)
       setTipo('Error: Introdueix valors vàlids')
       setColor('red')
@@ -40,7 +41,7 @@ const Calculadora = () => {
   }
   return (
     <View>
-        <View>
+        <View style={{flex:'1', flexDirection:'row'}}>
     <TextInput
     mode= 'outlined'
     style={{width:200, height:50}}
@@ -51,9 +52,14 @@ const Calculadora = () => {
      activeOutlineColor='green'
      outlineColor='green'
     />
+    { !pesValid.test(pes) &&
+<HelperText type="error">
+        peso invalido
+      </HelperText>
+}
     </View>
 
-     <View>
+     <View style={{flex:'1', flexDirection:'row'}}>
     <TextInput
     mode= 'outlined'
     style={{width:200, height:50}}
@@ -64,6 +70,11 @@ const Calculadora = () => {
      activeOutlineColor='blue'
      outlineColor='blue'
     />
+    { !pesValid.test(metres) &&
+<HelperText type="error">
+        peso invalido
+      </HelperText>
+}
     </View>
 
     <Button style={{margin:10}} icon="calculator" mode="contained" onPress={handleOnPress}>
