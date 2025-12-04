@@ -1,26 +1,51 @@
-# Benvinguts a la teua app feta per a Expo 👋
+📱 IMC App – React Native
+Una aplicación móvil desarrollada con React Native que permite calcular el Índice de Masa Corporal (IMC) de una persona de forma rápida y sencilla. La app proporciona una clasificación del resultado y recomendaciones básicas de acuerdo con los parámetros establecidos por la OMS.
 
-Aquest és un projecte [Expo](https://expo.dev) creat mitjançant l'ordre [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+🚀 Características
 
-## Comencem
 
-1. Instalem les dependències
+✍️ Ingreso de peso y altura del usuario
 
-   ```bash
-   npm install
-   ```
 
-2. Iniciem l'app
+⚖️ Cálculo automático del IMC
 
-   ```bash
-   npx expo start
-   ```
 
-Als missatges d'eixida, trobaràs distintes opcions per o obrir l'app en un
+📊 Clasificación del estado corporal (Bajo peso, Normal, Sobrepeso, Obesidad)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), un entorn segur per a començar amb el desenvolupament d'apps amb Expo.
 
-Podeu començar a editar els fitxers que es troben dins de la carpeta **app** .
+🎨 Interfaz moderna, adaptable y fácil de usar
+
+
+📱 Compatible con Android y iOS
+
+
+
+🧮 ¿Qué es el IMC?
+El Índice de Masa Corporal (IMC) es una medida utilizada para evaluar la relación entre el peso y la altura, ayudando a identificar riesgos para la salud relacionados con el peso corporal.
+La fórmula utilizada es:
+IMC = peso (kg) / altura² (m)
+
+
+🛠️ Tecnologías utilizadas
+Tecnología UsoReact NativeFramework de desarrollo móvilExpo / React Native CLIEjecución y empaquetado del proyectoHooks (useState)Manejo de estadoJavaScript
+
+📂 Instalación y ejecución
+1️⃣ Clonar el repositorio:
+git clone https://github.com/albertoportfolio/imc-app.git
+cd imc-app
+
+2️⃣ Instalar dependencias:
+npm install
+
+3️⃣ Ejecutar el proyecto:
+npm start
+
+Si usas Expo, escanea el código QR para abrir la app en tu móvil.
+
+🧾 Licencia
+Este proyecto está bajo la licencia MIT. Puedes usarlo y modificarlo libremente.
+
+👨‍💻 Autor
+Alberto Peñarrubia
+📧 Contacto: alpegom2001@gmail.com
+🔗 GitHub: https://github.com/albertoportfolio
