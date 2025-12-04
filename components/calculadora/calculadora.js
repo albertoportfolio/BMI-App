@@ -4,7 +4,9 @@ import { View } from 'react-native';
 import { Button, HelperText, TextInput } from 'react-native-paper';
 import Resultat from '../resultat/resultat';
 
-const Calculadora = () => {
+// Comentari de prova
+
+const Calculadora = () => {   
   const [metres, setMetres] = useState(0);
   const [pes, setPes] = useState(0);
   const [imc, setImc] = useState(0);
