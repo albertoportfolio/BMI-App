@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import { Text, View } from "react-native";
-import { PaperProvider, TextInput } from "react-native-paper";
-import Titol from '../components/titol/titol'
-import Calculadora from '../components/calculadora/calculadora'
+import React from "react";
+import { View } from "react-native";
+import { PaperProvider } from "react-native-paper";
+import Calculadora from '../components/calculadora/calculadora';
+import Titol from '../components/titol/titol';
 
 const Index = () => {
 
@@ -18,7 +18,7 @@ const Index = () => {
       >
         <Titol></Titol>
         <Calculadora></Calculadora>
-
+        
       </View>
     </PaperProvider>
   );

@@ -13,6 +13,9 @@ const Calculadora = () => {
   const [disabled, setDisabled] = useState(false)
   const pesValid = /^(\d+)$|^(\d*\.\d+)$/;
 
+  /**
+   * El useEffect actualiza el componente una vez cambia el valor del IMC
+   */
   useEffect(() => {
     if(imc > 0 && imc < 18.5){
       setTipo('Infrapeso')
@@ -29,6 +32,9 @@ const Calculadora = () => {
     }
   }, [imc]);
 
+  /**
+   * función para comprobar que los datos ingresados sean validos
+   */
   const handleOnPress = () => {
     const num = pes / (Math.pow(metres,2))
     setImc(num)
