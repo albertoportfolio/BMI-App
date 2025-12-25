@@ -1,53 +1,45 @@
-📱 IMC App – React Native
+# 📱 BMI App – React Native
 
-Una aplicación móvil desarrollada con React Native que permite calcular el Índice de Masa Corporal (IMC) de una persona de forma rápida y sencilla. La app proporciona una clasificación del resultado y recomendaciones básicas de acuerdo con los parámetros establecidos por la OMS.
+A mobile application developed with React Native that allows users to quickly and easily calculate their Body Mass Index (BMI). The app provides a classification of the result and basic recommendations according to WHO guidelines.
 
-🚀 Características
+## 🚀 Features
 
-✍️ Ingreso de peso y altura del usuario
+- ✍️ Input for user weight and height
 
-⚖️ Cálculo automático del IMC
+- ⚖️ Automatic BMI calculation
 
-📊 Clasificación del estado corporal (Bajo peso, Normal, Sobrepeso, Obesidad)
+- 📊 Body status classification (Underweight, Normal, Overweight, Obesity)
 
-🎨 Interfaz moderna, adaptable y fácil de usar
+- 🎨 Modern, responsive, and user-friendly interface
 
-📱 Compatible con Android y iOS
+- 📱 Compatible with Android and iOS
 
-🧮 ¿Qué es el IMC?
+## 🧮 What is BMI?
 
-El Índice de Masa Corporal (IMC) es una medida utilizada para evaluar la relación entre el peso y la altura, ayudando a identificar riesgos para la salud relacionados con el peso corporal.
+Body Mass Index (BMI) is a measure used to evaluate the relationship between weight and height, helping to identify health risks related to body weight.
 
-La fórmula utilizada es:
+## 🛠️ Technologies Used
+- React Native	Mobile development framework
+- Expo / React Native CLI	Project execution and packaging
+- Hooks (useState)	State management
+  
+## 📂 Installation and Running
 
-IMC = peso (kg) / altura² (m)
-
-🛠️ Tecnologías utilizadas
-Tecnología	Uso
-React Native	Framework de desarrollo móvil
-Expo / React Native CLI	Ejecución y empaquetado del proyecto
-Hooks (useState)	Manejo de estado
-📂 Instalación y ejecución
-
-1️⃣ Clonar el repositorio:
-
+### 1️⃣ Clone the repository:
 git clone https://github.com/albertoportfolio/imc-app.git
+
 cd imc-app
 
 
-2️⃣ Instalar dependencias:
-
+### 2️⃣ Install dependencies:
 npm install
 
 
-3️⃣ Ejecutar el proyecto:
-
+### 3️⃣ Run the project:
 npm start
 
-🧾 Licencia
+## 🧾 License
+This project is licensed under MIT. You are free to use and modify it.
 
-Este proyecto está bajo la licencia MIT. Puedes usarlo y modificarlo libremente.
-
-👨‍💻 Autor
-📧 Contacto: alpegom2001@gmail.com
-🔗 GitHub: https://github.com/albertoportfolio
+## 👨‍💻 Author
+albertoportfolio
